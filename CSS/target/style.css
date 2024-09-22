@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    width: 100% ;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1664179550989-894a1587554b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIyfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+}
+#left{
+
+    height: 100%;
+    width: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1723129304791-35dd2f126cda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE0MnxDRHd1d1hKQWJFd3x8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: center;
+}
+#overlay1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.175);
+    position: relative;
+}
+#overlay2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.175);
+    position: relative;
+}
+#center1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+#center2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+#center1 h1{
+    font-size: 20px;
+    font-weight: 100px;
+
+}
+#center2 h1{
+    font-size: 20px;
+    font-weight: 100px;
+}
+#center1 p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#center2 p{
+    font-size: 15px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+#center1 button{
+    background-color:transparent;
+    height:30px;
+    width: 80px;
+    border-color: chocolate;
+    color: chocolate;
+    border-radius: 0.5rem;
+
+
+}
+#center2 button{
+    background-color: transparent;
+    border-color: yellow;
+    color: yellow;
+    height:30px;
+    width: 80px;
+    border-radius: 0.5rem;
+}
+#center2 button:hover{
+    background-color: yellow;
+    color: black;
+}
+#center1 button:hover{
+    background-color:chocolate;
+    color: white;
+}
