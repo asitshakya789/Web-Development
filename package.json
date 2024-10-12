@@ -8,7 +8,7 @@
   },
   "author": "Asit kumar",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "chalk": "^5.3.0",
     "color": "^4.2.3",
