@@ -14,10 +14,10 @@ fs.appendFile(filepath,'this is text to added into tge file', (err, data) => {
   if (err) throw err;
   console.log("Data appended successfully!");
 })
-fs.rename(filepath, `${dirpath}/text2.txt`, (err) => {
-  if (err) throw err;
-  console.log("File renamed successfully");
-});
+// fs.rename(filepath, `${dirpath}/text2.txt`, (err) => {
+//   if (err) throw err;
+//   console.log("File renamed successfully");
+// });
 // fs.unlink(`${dirpath}/text2.txt`, (err) => {
 //   if (err) throw err;
 //   console.log("File deleted successfully");
